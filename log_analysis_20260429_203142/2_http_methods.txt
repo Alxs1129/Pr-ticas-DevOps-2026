@@ -1,4 +1,0 @@
-      7 GET
-      2 POST
-      2 DELETE
-      1 PUT
