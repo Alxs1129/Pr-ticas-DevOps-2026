@@ -1,0 +1,7 @@
+      9 M
+      7 GET
+      2 POST
+      2 DELETE
+      1 PUT
+      1 P
+      1 G
