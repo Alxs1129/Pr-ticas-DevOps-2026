@@ -1,79 +1,75 @@
-# Práticas de DevOps 2026 - Repositório de exercícios de scripts Shell e automação.
-# Aluno: Alexandre da Silva Araújo
-# Curso: Análise e Desenvolvimento de Sistemas - 5º Semestre
+# Praticas de DevOps 2026 - Repositorio de exercicios de scripts Shell e automacao
 
-# Scripts DevOps - Laboratório de Programação
+**Aluno:** Alexandre da Silva Araujo  
+**Curso:** Analise e Desenvolvimento de Sistemas - 5 Semestre  
 
-Disciplina: Laboratório de programação para operação de infraestrutura de redes de computadores
-Professor: Eder Pereira dos Santos
+---
 
-## Descrição do Projeto
+## Scripts DevOps - Laboratorio de Programacao
 
-Este repositório contém scripts desenvolvidos para automação de tarefas DevOps, incluindo:
+**Disciplina:** Laboratorio de programacao para operacao de infraestrutura de redes de computadores  
+**Professor:** Eder Pereira dos Santos  
 
-- Análise de logs de servidores web
-- Operações em lote com arquivos (renomear, converter, compactar)
-- Instalação e configuração de servidores web (Nginx/Apache)
+---
+
+## Descricao do Projeto
+
+Este repositorio contem scripts desenvolvidos para automacao de tarefas DevOps, incluindo:
+
+- Analise de logs de servidores web
+- Operacoes em lote com arquivos (renomear, converter, compactar)
+- Instalacao e configuracao de servidores web (Nginx/Apache)
 - Comandos essenciais para DevOps
 
-## Estrutura do Repositório
-script1/
-├── logs/
-│ └── regex_log_analyzer.sh # Análise de logs
-├── utils/
-│ └── essential_commands.sh # Comandos essenciais DevOps
-├── file_operations.sh # Manipulação de arquivos
-├── install_webserver.sh # Instalação de servidor web
-├── calculadora.sh # Calculadora em shell
-├── comparar.sh # Compara números
-├── compara_strings.sh # Compara strings
-├── ordem.sh # Ordem alfabética
-├── par_impar.sh # Verifica par/ímpar
-├── valida_args.sh # Valida argumentos
-└── verifica_arquivo.sh # Verifica tipo de arquivo
+---
 
+## Estrutura do Repositorio
 
-## Como usar
+Praticas-DevOps-2026/
+├── Utils/
+│ ├── Atividade 1_1 Explorando comandos essenciais para DevOps/
+│ │ └── utils/
+│ │ └── essential_commands.sh
+│ ├── Atividade 2_1 Analise de Logs/
+│ │ ├── regex_log_analyzer.sh
+│ │ └── apache.log
+│ ├── Atividade 2_2 Script Multifuncional/
+│ │ ├── file_operations.sh
+│ │ ├── compara_strings.sh
+│ │ └── verifica_arquivo.sh
+│ └── Laboratorio DevOps Pratica 2 - Sala/
+│ ├── comandos_apache.sh
+│ └── configurar_site.sh
+├── Atividade 4/
+│ ├── analisar_log.sh
+│ ├── buscar_logs.sh
+│ ├── relatorio_monitoramento.sh
+│ ├── verificar_usuario.sh
+│ └── organizar_projeto.sh
+├── Atividade 5/
+│ ├── extrair_ips.sh
+│ ├── extrair_emails.sh
+│ ├── analisa_log.sh
+│ └── validador.sh
+├── Sintaxe Shell/
+│ ├── boas_vindas.sh
+│ ├── calcular_idade.sh
+│ ├── gerar_senha.sh
+│ ├── ler_valores.sh
+│ └── info_sistema.sh
+└── README.md
 
-### Análise de Logs
-```bash
-./logs/regex_log_analyzer.sh
+Autores
+Alexandre da Silva Araujo
 
-./file_operations.sh --menu
+Wellisson Cruz
 
-./install_webserver.sh nginx
-# ou
-./install_webserver.sh apache
+Data
+Abril/2026
 
-./utils/essential_commands.sh
+Observacoes
+Scripts desenvolvidos no ambiente Git Bash (Windows)
 
+Para execucao completa, recomenda-se ambiente Linux ou WSL
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Alxs1129/Pr-ticas-DevOps-2026)](https://github.com/Alxs1129/Pr-ticas-DevOps-2026)
-
-## 📚 Sobre o Projeto
-
-Scripts desenvolvidos para a disciplina **Laboratório de programação para operação de infraestrutura de redes de computadores** sob orientação do professor **Eder Pereira dos Santos**.
-
-## 📁 Estrutura
-
-| Arquivo | Atividade | Descrição |
-|---------|-----------|-----------|
-| `atv2.1_regex_log_analyzer.sh` | 2.1 | Análise de logs de servidor web |
-| `atv2.2_file_operations.sh` | 2.2 | Manipulação de arquivos (renomear, converter, compactar) |
-| `atv4_comparar_strings.sh` | 4 | Compara duas strings |
-| `atv7_verificar_arquivo.sh` | 7 | Verifica tipo de arquivo |
-
-## 🚀 Como usar
-
-```bash
-# Análise de logs
-./atv2.1_regex_log_analyzer.sh
-
-# Manipulação de arquivos (modo menu)
-./atv2.2_file_operations.sh --menu
-
-# Comparar strings
-./atv4_comparar_strings.sh "string1" "string2"
-
-# Verificar arquivo
-./atv7_verificar_arquivo.sh /caminho/arquivo
+Alguns scripts exigem pacotes adicionais (ImageMagick, etc.)
