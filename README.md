@@ -1,7 +1,7 @@
 # Praticas de DevOps 2026 - Repositorio de exercicios de scripts Shell e automacao
 
 **Aluno:** Alexandre da Silva Araujo  
-**Curso:** Analise e Desenvolvimento de Sistemas - 5 Semestre  
+**Curso:** Analise e Desenvolvimento de Sistemas - 5º Semestre  
 
 ---
 
@@ -60,9 +60,8 @@ Praticas-DevOps-2026/
 └── README.md
 
 Autores
-Alexandre da Silva Araujo
-
-Wellisson Cruz
+- Alexandre da Silva Araujo
+- Wellisson Cruz
 
 Data
 Abril/2026
