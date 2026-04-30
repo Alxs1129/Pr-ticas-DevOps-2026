@@ -1,0 +1,13 @@
+ATIVIDADE 2.3 - INSTALAÇÃO E CONFIGURAÇÃO DE SERVIDOR WEB
+
+PERGUNTA: Qual servidor web escolher para a ScreenMatch (conteúdo estático + alto tráfego)?
+
+RESPOSTA: APACHE
+
+JUSTIFICATIVA:
+- Confiabilidade e maturidade do software
+- Facilidade de configuração com arquivos .htaccess
+- Grande comunidade de suporte
+- Ampla documentação disponível
+
+Autor: Alexandre Araujo
