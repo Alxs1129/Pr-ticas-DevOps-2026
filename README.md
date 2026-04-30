@@ -46,3 +46,34 @@ script1/
 ./install_webserver.sh apache
 
 ./utils/essential_commands.sh
+
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alxs1129/Pr-ticas-DevOps-2026)](https://github.com/Alxs1129/Pr-ticas-DevOps-2026)
+
+## 📚 Sobre o Projeto
+
+Scripts desenvolvidos para a disciplina **Laboratório de programação para operação de infraestrutura de redes de computadores** sob orientação do professor **Eder Pereira dos Santos**.
+
+## 📁 Estrutura
+
+| Arquivo | Atividade | Descrição |
+|---------|-----------|-----------|
+| `atv2.1_regex_log_analyzer.sh` | 2.1 | Análise de logs de servidor web |
+| `atv2.2_file_operations.sh` | 2.2 | Manipulação de arquivos (renomear, converter, compactar) |
+| `atv4_comparar_strings.sh` | 4 | Compara duas strings |
+| `atv7_verificar_arquivo.sh` | 7 | Verifica tipo de arquivo |
+
+## 🚀 Como usar
+
+```bash
+# Análise de logs
+./atv2.1_regex_log_analyzer.sh
+
+# Manipulação de arquivos (modo menu)
+./atv2.2_file_operations.sh --menu
+
+# Comparar strings
+./atv4_comparar_strings.sh "string1" "string2"
+
+# Verificar arquivo
+./atv7_verificar_arquivo.sh /caminho/arquivo
